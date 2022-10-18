@@ -1,0 +1,8 @@
+inventory:
+  plugin: CsvInventoryPlugin
+  options:
+    inventory_dir_path: /home/myusername/projectdir
+runner:
+  plugin: threaded
+  options:
+    num_workers: 20
